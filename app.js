@@ -26,7 +26,7 @@ const search_button = () => {
             .then(data => Display(data))
             .catch(e => {
 
-                NumberOfResult.innerHTML = `No result found`;
+                NumberOfResult.innerHTML = `find some  ${e}`;
                 showSpinner('none');
             })
     }
