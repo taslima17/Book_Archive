@@ -46,7 +46,7 @@ const Display = (data) => {
 
     /* searched information number */
 
-    if (Length == 0) {
+    if (Length === 0) {
         NumberOfResult.innerHTML = `No result found`;
     }
     else {
@@ -80,7 +80,7 @@ const Display = (data) => {
 
         /*   checking subjects */
 
-        if (item.subject == undefined) {
+        if (item.subject === undefined) {
             subjects = "subject not found";
         }
         else {
