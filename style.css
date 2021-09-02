@@ -1,0 +1,22 @@
+/* body style */
+body {
+    background-image: url(cover.jpg);
+    background-size: cover;
+
+
+}
+/* spinner style */
+#spinner {
+    display: none;
+}
+
+/* result info style */
+
+#no-of-result {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    padding: 20px;
+}
